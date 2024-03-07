@@ -27,9 +27,9 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width: 60px;
   height: 42px;
-  border-radius: 50%;
+  border-radius:70%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,3 +67,58 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+/* 
+/* Solution 1
+.modal {
+  padding:8px;
+
+}
+
+.top_part{
+  display:flex;
+  justify-content:space-between;
+}
+
+.header,.text {
+  font-weight: 700;
+}
+
+.text{
+  margin-left:50px;
+}
+
+.continue{
+  margin:0 0 0 50px;
+} */
+
+/* Solution 2 */
+.modal{
+  padding:18px;
+  display:flex;
+  /* justify-content: space-between; */
+}
+
+.icon{
+  max-width: 38px;
+  max-height:38px;
+  margin-right:15px;
+  flex-shrink: 0;
+}
+
+.sec_cl{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+
+.header,.text{
+  font-weight: 700;
+}
+.text{
+  font-weight: 400;
+}
+
+
+
+
